@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Júlia Karoline Oliveira Cruz">
+	<meta name="keywords" content="Tutorial de Bootstrap, site Nuno">
+	<meta name="description" content="Site realizado com Bootstrap">
+	<title>Nuno </title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive" >
+
+
+<!-- Seção Home Inicio -->
+<div id="home">
+
+<!-- Navegação -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a href="index.html" class="navbar-brand"><img src="img/nuno.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a href="#home" class="nav-link">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="#portifolio" class="nav-link">Portifólio</a>
+			</li>
+			<li class="nav-item">
+				<a href="team" class="nav-link">Cursos</a>
+			</li>
+			<li class="nav-item">
+				<a href="#contact" class="nav-link">Contato</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!-- navegação fim -->
+
+<!-- Inicio do Slide -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="carousel-item active" style="background-image: url(img/computers.png);">
+		<div class="carousel-caption text-center">
+			<h1>Nuno</h1>
+			<h3>Tutotial vídeo Bootstrap</h3>
+			<a href="" class="btn btn-outline-light btn-lg" href="#course">Começar</a>
+		</div>
+		</div>
+
+		<div class="carousel-item" style="background-image: url(img/computers-2.png);"></div>
+
+		<div class="carousel-item" style="background-image: url(img/computers-3.png);"></div>
+
+	</div>
+	<!-- botão anterior e proximo -->
+	<a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	</a>
+
+	<a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	</a>
+
+</div>
+<!-- fim do Slide -->
+
+</div>
+<!-- Seção Home Fim -->
+
+<!-- Seção Portifolio Inicio -->
+<div id="portifolio" class="offset">
+	<div class="jumbotron container-fluid">
+		<div class="col-12 text-center">
+			<h3 class="heading">Portifólio</h3>
+			<div class="heading-underline"></div>
+		</div>>
+  <div class="row no-padding">
+
+	<div class="col-sm-4">
+		<div class="portifolio">
+			<a href="img/portfolio/cd azul e rosa.jpg" target="_blank">
+				<img src="img/portfolio/cd azul e rosa.jpg">
+			</a>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div class="portifolio">
+			<a href="img/portfolio/Logotipo manuscrito feminino  (1).png" target="_blank">
+				<img src="img/portfolio/Logotipo manuscrito feminino  (1).png">
+			</a>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div class="portifolio">
+			<a href="img/portfolio/f24d3b420946f1f2a874fd4baceb39d4.jpg" target="_blank">
+				<img src="img/portfolio/f24d3b420946f1f2a874fd4baceb39d4.jpg">
+			</a>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div class="portifolio">
+			<a href="img/portfolio/arroba.jpg" target="_blank">
+				<img src="img/portfolio/arroba.jpg">
+			</a>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div class="portifolio">
+			<a href="img/portfolio/naoaguentomais.png" target="_blank">
+				<img src="img/portfolio/naoaguentomais.png">
+			</a>
+		</div>
+	</div>
+
+	<div class="col-sm-4">
+		<div class="portifolio">
+			<a href="img/portfolio/caderno.jpg" target="_blank">
+				<img src="img/portfolio/caderno.jpg">
+			</a>
+		</div>
+	</div>
+
+	<div class="narrow text-center">
+		<div class="col-12">
+			<p class="lead">Conheça os meus projetos no Linkedin.</p>
+			<a href="https://www.linkedin.com/in/j%C3%BAlia-karoline-oliveira-202174232/" class="btn btn-secondary btn-md" target="_blank">Visite o meu Linkedin</a>
+		</div>
+	</div>
+
+</div>
+	</div>
+	
+</div>
+
+<!-- Seção Portifolio Fim -->
+
+<!-- Seção times Inicio -->
+<div id="team" class="offset">
+
+	<div class="col-12 text-center">
+		<h3 class="heading">Cursos</h3>
+		<div class="heading-underline"></div>
+	</div>
+
+	<div class="row padding">
+		<div class="col-md-6">
+			<div class="card text-center">
+				<img src="img/team/rocketseat.jpg" class="card-img-top">
+				<div class="card-body">
+					<h4> Programação do zero </h4>
+					<p>Jornada prática de introdução a tecnologia para conhecer o universo da programação.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<div class="card text-center">
+				<img src="img/team/Júlia Karoline.jpg" class="card-img-top">
+				<div class="card-body">
+					<h4>Desenvolvedora Full Stack Junior</h4>
+					<p>O Instituto PROA tem o objetivo de criar oportunidades de desenvolvimento pessoal e profissional para jovens de baixa renda vindos de escola pública, ajudando-os a ingressarem no mercado de trabalho.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+<!-- Seção times Fim -->
+
+<!-- Seção Contato Inicio -->
+<div id="contact" class="offset"> 
+
+	<footer>
+		<div class="row justify-content-center">
+
+			<div class="col-md-5 text-center">
+				<img src="img/nuno.png">
+				<p> Evoluindo um pouquinho todos os dias!<br> Para quaisquer esclarecimentos entre em contato: </strong>
+				<p>(11) 99124-4183<br>juliaoliver.cruz@gmail.com</p>
+
+				<a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+				<a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+				<a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+			</div>
+
+			<hr class="socket">
+			&copy; Nuno | Desenvolvido por Júlia Karoline
+
+		</div>
+	</footer>
+	
+</div>
+<!-- Seção Contato Fim -->
+	
+
+<!--- Arquivos de Script -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<!--- Arquivos de Script Fim -->
+
+</body>
+</html>
+
+
+
+
